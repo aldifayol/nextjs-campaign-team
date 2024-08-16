@@ -15,15 +15,12 @@ function PetaPemenangan() {
   return (
     <div>
       <h1>Peta Pemenangan</h1>
-      <MapContainer
-        center={[1.4923236702226486, 124.83940533628326]}
-        zoom={12}
-        scrollWheelZoom={false}>
+      <MapContainer center={[1.492, 124.839]} zoom={12} scrollWheelZoom={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[51.505, -0.09]}>
+        <Marker position={[1.492, 124.839]}>
           <Popup>
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>

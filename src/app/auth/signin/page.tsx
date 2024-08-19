@@ -6,8 +6,8 @@ import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
-  title: "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template",
-  description: "This is Next.js Signin Page TailAdmin Dashboard Template",
+  title: "SignIn Page | E2L SULUT 1",
+  description: "Sign In To Elly SULUT 1 App",
 };
 
 const SignIn: React.FC = () => {
@@ -19,30 +19,13 @@ const SignIn: React.FC = () => {
         <div className="flex flex-wrap items-center">
           <div className="hidden w-full xl:block xl:w-1/2">
             <div className="px-26 py-17.5 text-center">
-              <Link className="mb-5.5 inline-block" href="/">
-                <Image
-                  className="hidden dark:block"
-                  src={"/images/logo/logo.svg"}
-                  alt="Logo"
-                  width={176}
-                  height={32}
-                />
-                <Image
-                  className="dark:hidden"
-                  src={"/images/logo/logo-dark.svg"}
-                  alt="Logo"
-                  width={176}
-                  height={32}
-                />
-              </Link>
-
               <p className="2xl:px-20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                suspendisse.
+                Calon Pemimpin Yang Diandalkan Masyarakan Sulawesi Utara. Siap
+                Berbakti Melaksanakan Tugas Dengan Sepenuh Hati.
               </p>
 
               <span className="mt-15 inline-block">
-                <svg
+                {/* <svg
                   width="350"
                   height="350"
                   viewBox="0 0 350 350"
@@ -161,16 +144,23 @@ const SignIn: React.FC = () => {
                     d="M310.566 183.213C309.132 182.066 307.174 184.151 307.174 184.151L306.026 173.828C306.026 173.828 298.853 174.687 294.261 173.542C289.67 172.396 288.953 177.7 288.953 177.7C288.716 175.557 288.668 173.399 288.81 171.248C289.096 168.667 292.827 166.087 299.427 164.366C306.026 162.646 309.47 170.101 309.47 170.101C314.061 172.395 312.001 184.36 310.566 183.213Z"
                     fill="#1C2434"
                   />
-                </svg>
+                </svg> */}
+                <Image
+                  className="rounded-lg dark:block"
+                  src={"/images/elly_mep_3.jpg"}
+                  alt="Logo"
+                  width={450}
+                  height={32}
+                />
               </span>
             </div>
           </div>
 
           <div className="w-full border-stroke dark:border-strokedark xl:w-1/2 xl:border-l-2">
             <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
-              <span className="mb-1.5 block font-medium">Start for free</span>
+              <span className="mb-1.5 block font-medium">Selamat Datang!</span>
               <h2 className="mb-9 text-2xl font-bold text-black dark:text-white sm:text-title-xl2">
-                Sign In to TailAdmin
+                Masuk Aplikasi Pemenangan
               </h2>
 
               <form>

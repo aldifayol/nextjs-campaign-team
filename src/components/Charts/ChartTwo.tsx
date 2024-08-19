@@ -9,7 +9,7 @@ const ReactApexChart = dynamic(() => import("react-apexcharts"), {
 });
 
 const options: ApexOptions = {
-  colors: ["#3C50E0", "#80CAEE"],
+  colors: ["#ff0000", "#ffff00"],
   chart: {
     fontFamily: "Satoshi, sans-serif",
     type: "bar",
@@ -78,11 +78,11 @@ interface ChartTwoState {
 const ChartTwo: React.FC = () => {
   const series = [
     {
-      name: "Sales",
+      name: "Other",
       data: [44, 55, 41, 67, 22, 43, 65],
     },
     {
-      name: "Revenue",
+      name: "E2LM",
       data: [13, 23, 20, 8, 13, 27, 15],
     },
   ];
@@ -92,7 +92,7 @@ const ChartTwo: React.FC = () => {
       <div className="mb-4 justify-between gap-4 sm:flex">
         <div>
           <h4 className="text-xl font-semibold text-black dark:text-white">
-            Profit this week
+            Barchart
           </h4>
         </div>
         <div>

@@ -10,16 +10,18 @@ import "leaflet/dist/leaflet.css";
 
 function MapOne() {
   const dapilStyle = {
-    fillColor: "red",
-    fillOpacity: 0.8,
-    color: "black",
+    fillColor: "yellow",
+    fillOpacity: 1,
+    color: "grey",
     weight: 2,
   };
+
+  const mapBg = true ? "#24303F" : "#ffffff";
 
   return (
     <div className="col-span-12 rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-7">
       <MapContainer
-        style={{ backgroundColor: "black" }}
+        style={{ backgroundColor: "#24303F" }}
         center={[1.498859, 124.258057]}
         zoom={8}
         scrollWheelZoom={false}
